@@ -1,0 +1,133 @@
+body{
+margin: 0;
+padding: 0;
+}
+.container1{
+background-image: url("../img/at.jpg");
+height: 100vh;
+width: 100vw;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.nav-bar1{
+padding: 0;
+background-image: url("../img/at.jpg");
+margin: 0;
+position: fixed;
+width: 100%;
+}
+.nav-bar1 ul{
+padding: 0;
+margin: 0 ;
+list-style-type: none;
+height: 68px;
+position: sticky;
+}
+.logo{
+width: 20%;
+}
+.nav-bar1 li{
+float: right;
+}
+div.nav-bar1 li a, .drpbtn{
+  display: block;
+   color: white;
+   text-align: center;
+   padding: 20px 16px;
+   text-decoration: none;
+font-size: 18px;
+font-family: 'Caveat', cursive;
+letter-spacing: 2px;
+}
+.li2{
+font-family: 'Roboto', sans-serif;
+}
+.logo{
+  height: 60px;
+width: 60px;
+}
+li:hover a{
+font-weight: bold;
+}
+.drop-down:hover .drop-down1 {
+  display: block;
+}
+.drop-down1{
+  display: none;
+  position: absolute;
+  background-image: url("../img/at.jpg");
+  min-width: 140px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.drop-down1 a{
+  padding: 0;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.drop-down1 a:hover {
+font-weight: normal;
+}
+.drop-down:hover .drop-down1 {
+  display: block;
+}
+.pro{
+padding: 15px 20px;
+position: absolute;
+color: black;
+bottom: 20%;
+left: 3%;
+font-size: 15px;
+color: white;
+}
+.pro1{
+padding: 15px 20px;
+position: absolute;
+color: black;
+bottom: 10%;
+left: 3%;
+font-size: 15px;
+color: white;
+}
+.pro1:hover{
+text-decoration: none;
+color: #2e77bc;
+background-color: white;
+}
+.pro:hover{
+text-decoration: none;
+color: #2e77bc;
+background-color: white;
+}
+.c1{
+padding-right: 15px;
+font-size: 15px;
+}
+#container2{
+margin: 50px 100px;
+border-left: 8px solid #2e77bc;
+}
+.he1{
+padding-left: 30px;
+font-family: 'Cormorant', serif;
+font-weight: bold;
+color: #2e77bc;
+}
+.he2{
+padding-left: 30px;
+font-family: 'Neucha', cursive;
+color: #282828;
+}
+.he3{
+background-color: #55bcc9;
+margin-top: 0;
+padding: 6px;
+margin-left: 30px;
+font-family: 'Neucha', cursive;;
+}
+.li6{
+letter-spacing: 1px;
+}
